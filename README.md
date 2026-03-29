@@ -17,7 +17,7 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h1 align="center"><b>𝐓ᴇᴀᴍ ʙᴧɴɪʏᴧ 𝐁ᴏᴛs</b></h1>
-<p align="center"><a href="https://t.me/TheSigmaCoder"><img src="https://files.catbox.moe/mb2et6.jpg" width="400"></a></p>
+<p align="center"><a href="https://t.me/OYE_SPARSH"><img src="https://files.catbox.moe/dfamld.jpg" width="400"></a></p>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </p>
