@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from SONALI import app
-from SONALI.core.call import Sona
-from SONALI.misc import db
-from SONALI.utils.database import get_assistant, get_authuser_names, get_cmode
-from SONALI.utils.decorators import ActualAdminCB, AdminActual, language
-from SONALI.utils.formatters import alpha_to_int, get_readable_time
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.core.call import Sona
+from BANIYA_MUSIC.misc import db
+from BANIYA_MUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
+from BANIYA_MUSIC.utils.decorators import ActualAdminCB, AdminActual, language
+from BANIYA_MUSIC.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")

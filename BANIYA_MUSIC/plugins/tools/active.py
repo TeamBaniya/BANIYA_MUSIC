@@ -2,9 +2,9 @@ from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from unidecode import unidecode
 
-from SONALI import app
-from SONALI.misc import SUDOERS
-from SONALI.utils.database import (
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.misc import SUDOERS
+from BANIYA_MUSIC.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,

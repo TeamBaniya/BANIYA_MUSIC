@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.core.call import Sona
-from SONALI.utils import bot_sys_stats
-from SONALI.utils.decorators.language import language
-from SONALI.utils.inline import supp_markup
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.core.call import Sona
+from BANIYA_MUSIC.utils import bot_sys_stats
+from BANIYA_MUSIC.utils.decorators.language import language
+from BANIYA_MUSIC.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 

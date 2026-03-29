@@ -1,8 +1,8 @@
-from SONALI.core.bot import Sona
-from SONALI.core.dir import dirr
-from SONALI.core.git import git
-from SONALI.core.userbot import Userbot
-from SONALI.misc import dbb, heroku
+from BANIYA_MUSIC.core.bot import Sona
+from BANIYA_MUSIC.core.dir import dirr
+from BANIYA_MUSIC.core.git import git
+from BANIYA_MUSIC.core.userbot import Userbot
+from BANIYA_MUSIC.misc import dbb, heroku
 
 from .logging import LOGGER
 

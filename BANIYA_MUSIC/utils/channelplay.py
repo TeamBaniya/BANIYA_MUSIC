@@ -1,5 +1,5 @@
-from SONALI import app
-from SONALI.utils.database import get_cmode
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

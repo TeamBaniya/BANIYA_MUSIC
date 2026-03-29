@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.misc import SUDOERS
-from SONALI.utils.decorators.language import language
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.misc import SUDOERS
+from BANIYA_MUSIC.utils.decorators.language import language
 
 
 def testspeed(m, _):

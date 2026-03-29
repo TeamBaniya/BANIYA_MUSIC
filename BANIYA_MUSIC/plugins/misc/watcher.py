@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.core.call import Sona
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.core.call import Sona
 
 welcome = 20
 close = 30

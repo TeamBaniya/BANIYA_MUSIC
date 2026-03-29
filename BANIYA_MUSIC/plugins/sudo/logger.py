@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from SONALI import app
-from SONALI.misc import SUDOERS
-from SONALI.utils.database import add_off, add_on
-from SONALI.utils.decorators.language import language
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.misc import SUDOERS
+from BANIYA_MUSIC.utils.database import add_off, add_on
+from BANIYA_MUSIC.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

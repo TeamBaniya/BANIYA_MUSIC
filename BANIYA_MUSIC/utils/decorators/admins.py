@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SONALI import app
-from SONALI.misc import SUDOERS, db
-from SONALI.utils.database import (
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.misc import SUDOERS, db
+from BANIYA_MUSIC.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,

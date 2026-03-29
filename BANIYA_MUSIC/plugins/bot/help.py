@@ -3,11 +3,11 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from SONALI import app
-from SONALI.utils import help_pannel
-from SONALI.utils.database import get_lang
-from SONALI.utils.decorators.language import LanguageStart, languageCB
-from SONALI.utils.inline.help import help_back_markup, private_help_panel
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.utils import help_pannel
+from BANIYA_MUSIC.utils.database import get_lang
+from BANIYA_MUSIC.utils.decorators.language import LanguageStart, languageCB
+from BANIYA_MUSIC.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 

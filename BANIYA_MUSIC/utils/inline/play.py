@@ -2,7 +2,7 @@ import math
 
 from pyrogram.types import InlineKeyboardButton
 
-from SONALI.utils.formatters import time_to_seconds
+from BANIYA_MUSIC.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):

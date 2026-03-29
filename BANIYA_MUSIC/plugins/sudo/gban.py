@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.misc import SUDOERS
-from SONALI.utils import get_readable_time
-from SONALI.utils.database import (
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.misc import SUDOERS
+from BANIYA_MUSIC.utils import get_readable_time
+from BANIYA_MUSIC.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from SONALI.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from SONALI.utils.decorators.language import language
-from SONALI.utils.extraction import extract_user
+from BANIYA_MUSIC.utils.decorators.language import language
+from BANIYA_MUSIC.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from SONALI import app
-from SONALI.utils.database import is_on_off
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.utils.database import is_on_off
 from config import LOGGER_ID
 
 

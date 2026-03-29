@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from SONALI import YouTube, app
-from SONALI.core.call import Sona
-from SONALI.misc import SUDOERS, db
-from SONALI.utils.database import (
+from BANIYA_MUSIC import YouTube, app
+from BANIYA_MUSIC.core.call import Sona
+from BANIYA_MUSIC.misc import SUDOERS, db
+from BANIYA_MUSIC.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from SONALI.utils.database import (
     music_on,
     set_loop,
 )
-from SONALI.utils.decorators.language import languageCB
-from SONALI.utils.formatters import seconds_to_min
-from SONALI.utils.inline import close_markup, stream_markup, stream_markup_timer
-from SONALI.utils.stream.autoclear import auto_clean
-from SONALI.utils.thumbnails import get_thumb
+from BANIYA_MUSIC.utils.decorators.language import languageCB
+from BANIYA_MUSIC.utils.formatters import seconds_to_min
+from BANIYA_MUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
+from BANIYA_MUSIC.utils.stream.autoclear import auto_clean
+from BANIYA_MUSIC.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,

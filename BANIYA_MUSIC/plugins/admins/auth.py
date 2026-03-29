@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.utils import extract_user, int_to_alpha
-from SONALI.utils.database import (
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.utils import extract_user, int_to_alpha
+from BANIYA_MUSIC.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from SONALI.utils.decorators import AdminActual, language
-from SONALI.utils.inline import close_markup
+from BANIYA_MUSIC.utils.decorators import AdminActual, language
+from BANIYA_MUSIC.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

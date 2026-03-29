@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from SONALI import app
-from SONALI.misc import db
-from SONALI.utils import SonaBin, get_channeplayCB, seconds_to_min
-from SONALI.utils.database import get_cmode, is_active_chat, is_music_playing
-from SONALI.utils.decorators.language import language, languageCB
-from SONALI.utils.inline import queue_back_markup, queue_markup
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.misc import db
+from BANIYA_MUSIC.utils import SonaBin, get_channeplayCB, seconds_to_min
+from BANIYA_MUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
+from BANIYA_MUSIC.utils.decorators.language import language, languageCB
+from BANIYA_MUSIC.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}

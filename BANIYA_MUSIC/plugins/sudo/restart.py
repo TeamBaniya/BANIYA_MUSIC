@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from SONALI import app
-from SONALI.misc import HAPP, SUDOERS, XCB
-from SONALI.utils.database import (
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.misc import HAPP, SUDOERS, XCB
+from BANIYA_MUSIC.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from SONALI.utils.decorators.language import language
-from SONALI.utils.pastebin import SonaBin
+from BANIYA_MUSIC.utils.decorators.language import language
+from BANIYA_MUSIC.utils.pastebin import SonaBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

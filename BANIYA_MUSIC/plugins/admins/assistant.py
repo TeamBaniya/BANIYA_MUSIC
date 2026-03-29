@@ -1,13 +1,13 @@
 import asyncio
-from SONALI.misc import SUDOERS
+from BANIYA_MUSIC.misc import SUDOERS
 from pyrogram import filters
-from SONALI import app
+from BANIYA_MUSIC import app
 import asyncio
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
-from SONALI import app
-from SONALI.utils.Sonali_ban import admin_filter
-from SONALI.utils.database import get_assistant
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.utils.BANIYA_MUSIC_ban import admin_filter
+from BANIYA_MUSIC.utils.database import get_assistant
 
 links = {}
 

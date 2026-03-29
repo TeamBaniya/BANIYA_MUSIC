@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.misc import db
-from SONALI.utils.decorators import AdminRightsCheck
-from SONALI.utils.inline import close_markup
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.misc import db
+from BANIYA_MUSIC.utils.decorators import AdminRightsCheck
+from BANIYA_MUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 

@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from SONALI import YouTube, app
-from SONALI.core.call import Sona
-from SONALI.misc import db
-from SONALI.utils.database import get_loop
-from SONALI.utils.decorators import AdminRightsCheck
-from SONALI.utils.inline import close_markup, stream_markup
-from SONALI.utils.stream.autoclear import auto_clean
-from SONALI.utils.thumbnails import get_thumb
+from BANIYA_MUSIC import YouTube, app
+from BANIYA_MUSIC.core.call import Sona
+from BANIYA_MUSIC.misc import db
+from BANIYA_MUSIC.utils.database import get_loop
+from BANIYA_MUSIC.utils.decorators import AdminRightsCheck
+from BANIYA_MUSIC.utils.inline import close_markup, stream_markup
+from BANIYA_MUSIC.utils.stream.autoclear import auto_clean
+from BANIYA_MUSIC.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

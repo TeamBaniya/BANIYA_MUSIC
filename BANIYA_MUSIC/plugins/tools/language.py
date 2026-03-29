@@ -2,9 +2,9 @@ from pykeyboard import InlineKeyboard
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, Message
 
-from SONALI import app
-from SONALI.utils.database import get_lang, set_lang
-from SONALI.utils.decorators import ActualAdminCB, language, languageCB
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.utils.database import get_lang, set_lang
+from BANIYA_MUSIC.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 

@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from SONALI import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from SONALI.core.call import Sona
-from SONALI.utils import seconds_to_min, time_to_seconds
-from SONALI.utils.channelplay import get_channeplayCB
-from SONALI.utils.decorators.language import languageCB
-from SONALI.utils.decorators.play import PlayWrapper
-from SONALI.utils.formatters import formats
-from SONALI.utils.inline import (
+from BANIYA_MUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from BANIYA_MUSIC.core.call import Sona
+from BANIYA_MUSIC.utils import seconds_to_min, time_to_seconds
+from BANIYA_MUSIC.utils.channelplay import get_channeplayCB
+from BANIYA_MUSIC.utils.decorators.language import languageCB
+from BANIYA_MUSIC.utils.decorators.play import PlayWrapper
+from BANIYA_MUSIC.utils.formatters import formats
+from BANIYA_MUSIC.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from SONALI.utils.logger import play_logs
-from SONALI.utils.stream.stream import stream
+from BANIYA_MUSIC.utils.logger import play_logs
+from BANIYA_MUSIC.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 

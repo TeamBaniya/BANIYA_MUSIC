@@ -8,8 +8,8 @@ from pyrogram.types import (
     Message,
 )
 
-from SONALI import app
-from SONALI.utils.database import (
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -25,15 +25,15 @@ from SONALI.utils.database import (
     skip_off,
     skip_on,
 )
-from SONALI.utils.decorators.admins import ActualAdminCB
-from SONALI.utils.decorators.language import language, languageCB
-from SONALI.utils.inline.settings import (
+from BANIYA_MUSIC.utils.decorators.admins import ActualAdminCB
+from BANIYA_MUSIC.utils.decorators.language import language, languageCB
+from BANIYA_MUSIC.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from SONALI.utils.inline.start import private_panel
+from BANIYA_MUSIC.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 

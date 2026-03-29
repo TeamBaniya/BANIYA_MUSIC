@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from SONALI import app
-from SONALI.core.call import Sona, autoend
-from SONALI.utils.database import get_client, is_active_chat, is_autoend
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.core.call import Sona, autoend
+from BANIYA_MUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from SONALI.core.userbot import assistants
+            from BANIYA_MUSIC.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)

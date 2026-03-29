@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import YouTube, app
-from SONALI.core.call import Sona
-from SONALI.misc import db
-from SONALI.utils import AdminRightsCheck, seconds_to_min
-from SONALI.utils.inline import close_markup
+from BANIYA_MUSIC import YouTube, app
+from BANIYA_MUSIC.core.call import Sona
+from BANIYA_MUSIC.misc import db
+from BANIYA_MUSIC.utils import AdminRightsCheck, seconds_to_min
+from BANIYA_MUSIC.utils.inline import close_markup
 from config import BANNED_USERS
 
 

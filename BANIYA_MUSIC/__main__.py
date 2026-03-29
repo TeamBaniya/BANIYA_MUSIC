@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from SONALI import LOGGER, app, userbot
-from SONALI.core.call import Sona
-from SONALI.misc import sudo
-from SONALI.plugins import ALL_MODULES
-from SONALI.utils.database import get_banned_users, get_gbanned
+from BANIYA_MUSIC import LOGGER, app, userbot
+from BANIYA_MUSIC.core.call import Sona
+from BANIYA_MUSIC.misc import sudo
+from BANIYA_MUSIC.plugins import ALL_MODULES
+from BANIYA_MUSIC.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("SONALI.plugins" + all_module)
-    LOGGER("SONALI.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("BANIYA_MUSIC.plugins" + all_module)
+    LOGGER("BANIYA_MUSIC.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Sona.start()
     try:
         await Sona.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("SONALI").error(
+        LOGGER("BANIYA_MUSIC").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Sona.decorators()
-    LOGGER("SONALI").info(
+    LOGGER("BANIYA_MUSIC").info(
         "❖ DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @TheSigmaCoder DM || JOIN @PURVI_UPDATES FOR ANY ISSUES || MADE BY PURVI BOTS"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SONALI").info("Stopping Music Bot...")
+    LOGGER("BANIYA_MUSIC").info("Stopping Music Bot...")
 
 
 if __name__ == "__main__":

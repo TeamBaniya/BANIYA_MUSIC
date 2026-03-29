@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from SONALI import YouTube, app
-from SONALI.utils.channelplay import get_channeplayCB
-from SONALI.utils.decorators.language import languageCB
-from SONALI.utils.stream.stream import stream
+from BANIYA_MUSIC import YouTube, app
+from BANIYA_MUSIC.utils.channelplay import get_channeplayCB
+from BANIYA_MUSIC.utils.decorators.language import languageCB
+from BANIYA_MUSIC.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

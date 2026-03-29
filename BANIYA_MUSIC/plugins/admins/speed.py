@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SONALI import app
-from SONALI.core.call import Sona
-from SONALI.misc import SUDOERS, db
-from SONALI.utils import AdminRightsCheck
-from SONALI.utils.database import is_active_chat, is_nonadmin_chat
-from SONALI.utils.decorators.language import languageCB
-from SONALI.utils.inline import close_markup, speed_markup
+from BANIYA_MUSIC import app
+from BANIYA_MUSIC.core.call import Sona
+from BANIYA_MUSIC.misc import SUDOERS, db
+from BANIYA_MUSIC.utils import AdminRightsCheck
+from BANIYA_MUSIC.utils.database import is_active_chat, is_nonadmin_chat
+from BANIYA_MUSIC.utils.decorators.language import languageCB
+from BANIYA_MUSIC.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []

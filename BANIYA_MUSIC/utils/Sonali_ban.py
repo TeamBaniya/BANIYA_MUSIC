@@ -1,5 +1,5 @@
 from pyrogram import filters
-from SONALI.utils.admin_check import admin_check
+from BANIYA_MUSIC.utils.admin_check import admin_check
 
 
 USE_AS_BOT = True
