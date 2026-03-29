@@ -49,7 +49,7 @@
 `curl -fssL https://deb.nodesource.com/setup_19.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 
 - Clone the repository by :
-`git clone https://github.com/TEAMPURVI/ALPHA_MUSIC && cd ALPHA_MUSIC`
+`git clone https://github.com/TeamBaniya/BANIYA_MUSIC && cd BANIYA_MUSIC`
 
 - Install requirements by :
 `pip3 install -U -r requirements.txt`
@@ -73,4 +73,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 ### Contact :
 <a href="https://t.me/OYE_SPARSH"><img title="Telegram" src="https://img.shields.io/badge/Telegram-%23000000.svg?&style=for-the-badge&logo=telegram&logoColor=61DAFB"></a>
 
-<a href="https://instagram.com/OYE_SPARSH_BAB"><img title="Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://instagram.com/OYE_SPARSH_BABY"><img title="Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
